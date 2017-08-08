@@ -1,0 +1,36 @@
+2017-08-08 00:00:14,396 : Removing: 2017-08-07-flexbar_read_trimmer.md
+2017-08-08 00:00:14,396 : Entering Front Matter class
+2017-08-08 00:00:14,397 : Front matter field: date value 2017-08-08
+2017-08-08 00:00:14,397 : Front matter field: title value Flexbar Read Trimmer
+2017-08-08 00:00:14,397 : Front matter field: categories value Example Applet
+2017-08-08 00:00:14,398 : front matter written
+2017-08-08 00:00:14,398 : Code region search
+2017-08-08 00:00:14,399 : regular comment, line: #!/bin/bash
+2017-08-08 00:00:14,399 : regular comment, line: #
+2017-08-08 00:00:14,399 : regular comment, line: # Copyright (C) 2013 DNAnexus, Inc.
+2017-08-08 00:00:14,399 : regular comment, line: #   This file is part of dnanexus-example-applets.
+2017-08-08 00:00:14,399 : regular comment, line: #   You may use this file under the terms of the Apache License, Version 2.0;
+2017-08-08 00:00:14,400 : regular comment, line: #   see the License.md file for more information.
+2017-08-08 00:00:14,400 : regular comment, line: # The following line causes bash to exit at any point if there is any error
+2017-08-08 00:00:14,400 : regular comment, line: # and to output each line as it is executed -- useful for debugging
+2017-08-08 00:00:14,400 : regular comment, line: #
+2017-08-08 00:00:14,400 : regular comment, line: # Fetch and uncompress inputs
+2017-08-08 00:00:14,401 : regular comment, line: #
+2017-08-08 00:00:14,401 : regular comment, line: #
+2017-08-08 00:00:14,401 : regular comment, line: # Add "-f" option based on PHRED encoding
+2017-08-08 00:00:14,401 : regular comment, line: #
+2017-08-08 00:00:14,401 : regular comment, line: #
+2017-08-08 00:00:14,402 : regular comment, line: # Run flexbar
+2017-08-08 00:00:14,402 : regular comment, line: #
+2017-08-08 00:00:14,402 : regular comment, line: #
+2017-08-08 00:00:14,402 : regular comment, line: # Upload outputs (paired or unpaired)
+2017-08-08 00:00:14,402 : regular comment, line: #
+2017-08-08 00:00:14,402 : regular comment, line: #
+2017-08-08 00:00:14,403 : regular comment, line: # Helper function to upload a result
+2017-08-08 00:00:14,403 : regular comment, line: #
+2017-08-08 00:00:14,403 : regular comment, line: # Usage: output <local_file> <input_object> <output_field>
+2017-08-08 00:00:14,403 : regular comment, line: #
+2017-08-08 00:00:14,403 : regular comment, line: # Will upload <local_file>, calling it after the name of <input_object>
+2017-08-08 00:00:14,403 : regular comment, line: # (with .fq/.fastq/.gz removed, and _trimmed.fq.gz added), and set it
+2017-08-08 00:00:14,403 : regular comment, line: # as the uploaded file id as the value of the <output_field>
+2017-08-08 00:00:14,404 : Creating code regions

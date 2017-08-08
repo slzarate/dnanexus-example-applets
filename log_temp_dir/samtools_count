@@ -1,0 +1,56 @@
+2017-08-08 00:00:14,290 : Removing: 2017-08-07-samtools_count.md
+2017-08-08 00:00:14,292 : Entering Front Matter class
+2017-08-08 00:00:14,293 : Front matter field: date value 2017-08-08
+2017-08-08 00:00:14,293 : Front matter field: title value SAMtools count
+2017-08-08 00:00:14,293 : Front matter field: categories value bash
+2017-08-08 00:00:14,293 : Front matter field: github_link value https://github.com/Damien-Black/dnanexus-example-applets/tree/master/Tutorials/bash/samtools_count
+2017-08-08 00:00:14,296 : front matter written
+2017-08-08 00:00:14,298 : Code region search
+2017-08-08 00:00:14,298 : regular comment, line: #!/bin/bash
+2017-08-08 00:00:14,298 : regular comment, line: #
+2017-08-08 00:00:14,298 : regular comment, line: # SECTION: Download bam files
+2017-08-08 00:00:14,298 : Section change to: Download bam files
+2017-08-08 00:00:14,299 : regular comment, line: # ------------------
+2017-08-08 00:00:14,299 : regular comment, line: # Use dx download to download the bam file. $mappings_bam is a dx_link
+2017-08-08 00:00:14,299 : regular comment, line: # containing the file_id of that file. By default, when we download a file,
+2017-08-08 00:00:14,299 : regular comment, line: # we will keep the filename of the object on the platform.
+2017-08-08 00:00:14,299 : regular comment, line: #
+2017-08-08 00:00:14,299 : regular comment, line: #
+2017-08-08 00:00:14,300 : regular comment, line: # SECTION: Run samtools view
+2017-08-08 00:00:14,300 : Section change to: Run samtools view
+2017-08-08 00:00:14,300 : regular comment, line: # -----------------
+2017-08-08 00:00:14,300 : regular comment, line: # Here, we use the bash helper variable mappings_bam_name. For file inputs,
+2017-08-08 00:00:14,300 : regular comment, line: # we will set a bash variable [VARIABLE]_name which holds a string representing
+2017-08-08 00:00:14,300 : regular comment, line: # the filename of the object on the platform. Because we have downloaded the
+2017-08-08 00:00:14,301 : regular comment, line: # file by default above, this will be the filename of the object on this
+2017-08-08 00:00:14,301 : regular comment, line: # worker as well. We further use [VARIABLE]_prefix, which will be the filename
+2017-08-08 00:00:14,301 : regular comment, line: # of the object, removing any suffixes specified in patterns. In this case,
+2017-08-08 00:00:14,301 : regular comment, line: # the pattern if '["*.bam"]', so it will remove the trailing ".bam".
+2017-08-08 00:00:14,301 : regular comment, line: #
+2017-08-08 00:00:14,301 : regular comment, line: # In the case that the filename of the file mappings_bam is "my_mappings.bam",
+2017-08-08 00:00:14,302 : regular comment, line: # mappings_bam_prefix will be "my_mappings"
+2017-08-08 00:00:14,302 : regular comment, line: #
+2017-08-08 00:00:14,302 : regular comment, line: # SECTION: Upload result
+2017-08-08 00:00:14,302 : Section change to: Upload result
+2017-08-08 00:00:14,302 : regular comment, line: # -------------
+2017-08-08 00:00:14,303 : regular comment, line: # We now upload the data to the platform. This will upload it into the
+2017-08-08 00:00:14,303 : regular comment, line: # job container, a temporary project which holds onto files associated
+2017-08-08 00:00:14,303 : regular comment, line: # with the job. when running upload with --brief, it will return just the
+2017-08-08 00:00:14,303 : regular comment, line: # file-id.
+2017-08-08 00:00:14,303 : regular comment, line: #
+2017-08-08 00:00:14,303 : regular comment, line: #
+2017-08-08 00:00:14,304 : regular comment, line: # SECTION: Associate with output
+2017-08-08 00:00:14,306 : Section change to: Associate with output
+2017-08-08 00:00:14,307 : regular comment, line: # ---------------------
+2017-08-08 00:00:14,307 : regular comment, line: # Finally, we tell the system what file should be associated with the output
+2017-08-08 00:00:14,307 : regular comment, line: # named counts_txt (which was specified in the dxapp.json). The system will then
+2017-08-08 00:00:14,308 : regular comment, line: # move this output into whatever folder was specified at runtime in the project
+2017-08-08 00:00:14,308 : regular comment, line: # running the job.
+2017-08-08 00:00:14,309 : regular comment, line: #
+2017-08-08 00:00:14,309 : Section change to: None
+2017-08-08 00:00:14,310 : Creating code regions
+2017-08-08 00:00:14,311 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/bash/samtools_count/Readme.md Download bam files
+2017-08-08 00:00:14,312 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/bash/samtools_count/Readme.md Run samtools view
+2017-08-08 00:00:14,312 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/bash/samtools_count/Readme.md Upload result
+2017-08-08 00:00:14,312 : Force line match: {% include note.html content="While job containers are an integral part of the execution process a deeper discussion goes out of scope of a basic tutorial. Review the [Containers for Execution](https://wiki.dnanexus.com/API-Specification-v1.0.0/Containers-for-Execution) wiki page for more information." %}
+2017-08-08 00:00:14,312 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/bash/samtools_count/Readme.md Associate with output

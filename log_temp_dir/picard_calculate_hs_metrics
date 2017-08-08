@@ -1,0 +1,25 @@
+2017-08-08 00:00:14,434 : Removing: 2017-08-07-picard_calculate_hs_metrics.md
+2017-08-08 00:00:14,434 : Entering Front Matter class
+2017-08-08 00:00:14,435 : Front matter field: date value 2017-08-08
+2017-08-08 00:00:14,435 : Front matter field: title value Picard CalculateHsMetrics
+2017-08-08 00:00:14,435 : Front matter field: categories value Example Applet
+2017-08-08 00:00:14,436 : front matter written
+2017-08-08 00:00:14,436 : Code region search
+2017-08-08 00:00:14,437 : regular comment, line: #!/bin/bash
+2017-08-08 00:00:14,437 : regular comment, line: #
+2017-08-08 00:00:14,437 : regular comment, line: # Copyright (C) 2013 DNAnexus, Inc.
+2017-08-08 00:00:14,437 : regular comment, line: #   This file is part of dnanexus-example-applets.
+2017-08-08 00:00:14,437 : regular comment, line: #   You may use this file under the terms of the Apache License, Version 2.0;
+2017-08-08 00:00:14,437 : regular comment, line: #   see the License.md file for more information.
+2017-08-08 00:00:14,438 : regular comment, line: # The following line causes bash to exit at any point if there is any error
+2017-08-08 00:00:14,438 : regular comment, line: # and to output each line as it is executed -- useful for debugging
+2017-08-08 00:00:14,438 : regular comment, line: #
+2017-08-08 00:00:14,438 : regular comment, line: # Fetch inputs
+2017-08-08 00:00:14,438 : regular comment, line: #
+2017-08-08 00:00:14,438 : regular comment, line: #
+2017-08-08 00:00:14,439 : regular comment, line: # Run CalculateHsMetrics
+2017-08-08 00:00:14,439 : regular comment, line: #
+2017-08-08 00:00:14,439 : regular comment, line: #
+2017-08-08 00:00:14,439 : regular comment, line: # Upload outputs
+2017-08-08 00:00:14,439 : regular comment, line: #
+2017-08-08 00:00:14,440 : Creating code regions

@@ -1,0 +1,58 @@
+2017-08-08 00:00:14,340 : Removing: 2017-08-07-pysam_count.md
+2017-08-08 00:00:14,341 : Entering Front Matter class
+2017-08-08 00:00:14,341 : Front matter field: date value 2017-08-08
+2017-08-08 00:00:14,341 : Front matter field: title value Pysam
+2017-08-08 00:00:14,341 : Front matter field: categories value python
+2017-08-08 00:00:14,341 : Front matter field: github_link value https://github.com/Damien-Black/dnanexus-example-applets/tree/master/Tutorials/python/pysam_count
+2017-08-08 00:00:14,343 : front matter written
+2017-08-08 00:00:14,343 : Code region search
+2017-08-08 00:00:14,343 : regular comment, line: #!/usr/bin/env python
+2017-08-08 00:00:14,344 : regular comment, line: #
+2017-08-08 00:00:14,344 : regular comment, line: # This app performs a Pysam count:
+2017-08-08 00:00:14,344 : regular comment, line: #   - Bam file is required
+2017-08-08 00:00:14,344 : regular comment, line: #   - If the index *.bai is not provided it will be generated
+2017-08-08 00:00:14,344 : regular comment, line: #   - Input bam will be split in smaller bams based on chromosomes
+2017-08-08 00:00:14,344 : regular comment, line: #   - Pysam is provided via pip package manager using execDepends
+2017-08-08 00:00:14,345 : regular comment, line: #   - in the the dxapp.json
+2017-08-08 00:00:14,345 : block comment, line: """
+2017-08-08 00:00:14,345 : block comment, line: """
+2017-08-08 00:00:14,345 : regular comment, line: #
+2017-08-08 00:00:14,346 : regular comment, line: # SECTION: Download inputs
+2017-08-08 00:00:14,346 : Section change to: Download inputs
+2017-08-08 00:00:14,346 : regular comment, line: # --------------------------------------------------------------------------
+2017-08-08 00:00:14,346 : regular comment, line: # mappings_sorted_bam and mappings_sorted_bai are passed to the main function
+2017-08-08 00:00:14,346 : regular comment, line: # as parameters for our job. mappings_sorted_bam and mappings_sorted_bai are
+2017-08-08 00:00:14,346 : regular comment, line: # dictionary objects with key=dnanexus_link and value=<file-id>.
+2017-08-08 00:00:14,347 : regular comment, line: #
+2017-08-08 00:00:14,347 : regular comment, line: # We handle file objects from the platform by first creating a DXFile handler.
+2017-08-08 00:00:14,347 : regular comment, line: # Then performing dxpy.download_dxfile.
+2017-08-08 00:00:14,347 : regular comment, line: #
+2017-08-08 00:00:14,347 : regular comment, line: # If index file is not supplied *.bai index will be created with pysam.index
+2017-08-08 00:00:14,347 : regular comment, line: #
+2017-08-08 00:00:14,348 : regular comment, line: # DXFIle.name attribute is converted to ASCII since Pysam does not handle Unicode strings.
+2017-08-08 00:00:14,348 : regular comment, line: #
+2017-08-08 00:00:14,348 : regular comment, line: #
+2017-08-08 00:00:14,348 : regular comment, line: # SECTION: Get chromosomes regions
+2017-08-08 00:00:14,348 : Section change to: Get chromosomes regions
+2017-08-08 00:00:14,348 : regular comment, line: # --------------------------------------------------------------
+2017-08-08 00:00:14,349 : regular comment, line: # Generate Pysam Alignmentfile object.
+2017-08-08 00:00:14,349 : regular comment, line: #
+2017-08-08 00:00:14,349 : regular comment, line: # Obtain regions to count.
+2017-08-08 00:00:14,349 : regular comment, line: #
+2017-08-08 00:00:14,349 : regular comment, line: # SECTION: Perform basic pysam count.
+2017-08-08 00:00:14,349 : Section change to: Perform basic pysam count.
+2017-08-08 00:00:14,350 : regular comment, line: # --------------------------------------------------------------
+2017-08-08 00:00:14,350 : regular comment, line: # Iterate over regions and sum results of pysam.count().
+2017-08-08 00:00:14,350 : regular comment, line: #
+2017-08-08 00:00:14,350 : regular comment, line: # SECTION:Output
+2017-08-08 00:00:14,351 : Section change to: Output
+2017-08-08 00:00:14,351 : regular comment, line: # ----------------------------------------------------------------------------
+2017-08-08 00:00:14,351 : regular comment, line: # Upload generated count file as counts_txt output specified in the dxapp.json
+2017-08-08 00:00:14,351 : Section change to: None
+2017-08-08 00:00:14,351 : Creating code regions
+2017-08-08 00:00:14,352 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/python/pysam_count/Readme.md Download inputs
+2017-08-08 00:00:14,352 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/python/pysam_count/Readme.md Get chromosomes regions
+2017-08-08 00:00:14,352 : Force line match: The helper function `get_chr`
+2017-08-08 00:00:14,352 : Adding Func: get_chr
+2017-08-08 00:00:14,591 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/python/pysam_count/Readme.md Perform basic pysam count.
+2017-08-08 00:00:14,591 : Kramdown section in /Users/sosazuwa/dnanexus-example-applets/Tutorials/python/pysam_count/Readme.md Output

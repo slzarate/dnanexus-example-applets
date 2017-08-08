@@ -1,0 +1,17 @@
+2017-08-08 00:00:14,389 : Removing: 2017-08-07-flexbar_read_demultiplexer.md
+2017-08-08 00:00:14,390 : Entering Front Matter class
+2017-08-08 00:00:14,390 : Front matter field: date value 2017-08-08
+2017-08-08 00:00:14,390 : Front matter field: title value Flexbar Read Demultiplexer
+2017-08-08 00:00:14,390 : Front matter field: categories value Example Applet
+2017-08-08 00:00:14,392 : front matter written
+2017-08-08 00:00:14,392 : Code region search
+2017-08-08 00:00:14,392 : regular comment, line: #!/bin/bash
+2017-08-08 00:00:14,393 : regular comment, line: #
+2017-08-08 00:00:14,393 : regular comment, line: # Copyright (C) 2013 DNAnexus, Inc.
+2017-08-08 00:00:14,393 : regular comment, line: #   This file is part of dnanexus-example-applets.
+2017-08-08 00:00:14,393 : regular comment, line: #   You may use this file under the terms of the Apache License, Version 2.0;
+2017-08-08 00:00:14,393 : regular comment, line: #   see the License.md file for more information.
+2017-08-08 00:00:14,394 : regular comment, line: # The following line causes bash to exit at any point if there is any error
+2017-08-08 00:00:14,394 : regular comment, line: # and to output each line as it is executed -- useful for debugging
+2017-08-08 00:00:14,394 : regular comment, line: # Fetch and uncompress inputs
+2017-08-08 00:00:14,394 : Creating code regions
