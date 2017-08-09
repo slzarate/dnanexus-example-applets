@@ -15,7 +15,7 @@ For additional information, please refer to the [`execDepends` wiki page](https:
 ## Debugging
 The command `set -e -x -o pipefail` will assist you in debugging this applet:
 * `-e` causes the shell to immediately exit if a command returns a non-zero exit code.
-* `-x` prints commands as they are executed, which very useful for tracking the job's status or pinpointing the exact execution failure.
+* `-x` prints commands as they are executed, which is very useful for tracking the job's status or pinpointing the exact execution failure.
 * `-o pipefail` makes the return code the first non-zero exit code. (Typically, the return code of pipes is the exit code of the last command, which can create difficult to debug problems.)
 <!-- SECTION: Debugging boilerplate and input download -->
 The `*.bai` file was an optional job input. We check for a empty or unset `var` using the bash built-in test `[[ - z ${var}} ]]`. Then, we can download or create a `*.bai` index as needed.
