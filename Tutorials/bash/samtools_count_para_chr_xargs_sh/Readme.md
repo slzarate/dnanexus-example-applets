@@ -37,5 +37,5 @@ In the previous section, we recorded the name of each sliced BAM file into a rec
 ### Upload results
 The results file is uploaded using the standard bash process:
 1.  Upload a file to the job execution's container.
-2.  Provide the DNAnexus link as a job's output using the function `dx-jobutil-add-output <output name>`
+2.  Provide the DNAnexus link as a job's output using the script `dx-jobutil-add-output <output name>`
 <!-- SECTION: Upload result file -->
