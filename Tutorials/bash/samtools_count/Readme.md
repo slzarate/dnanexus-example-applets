@@ -1,7 +1,7 @@
 This applet performs a basic `samtools view -c {bam}` command, referred to as "SAMtools count", on the DNAnexus platform.
 
 ## Download BAM Files
-For bash scripts, inputs to a job execution become environment variables. The inputs from `our dxapp.json` file are formatted as shown below:
+For bash scripts, inputs to a job execution become environment variables. The inputs from our `dxapp.json` file are formatted as shown below:
 ```json
 {
   "inputSpec": [{
